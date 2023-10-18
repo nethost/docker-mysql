@@ -1,0 +1,6 @@
+services:
+  builder:
+    build:
+      context: .
+      target: builder
+    image: nethost/mysql:5.7
