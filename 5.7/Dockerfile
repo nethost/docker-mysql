@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM oraclelinux:7-slim as builder
+FROM oraclelinux:7-slim AS builder
 
 RUN set -eux; \
 	groupadd --system --gid 999 mysql; \
